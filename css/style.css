@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
 body {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-family: "Kdam Thmor Pro", sans-serif;
   color: rgb(255, 255, 255);
   background-image: url("https://art.pixilart.com/8b6698a852323f3.gif");
   background-repeat: no-repeat;
@@ -24,4 +27,32 @@ h3 {
 }
 .founder {
   color: azure;
+}
+
+.contact-me {
+  padding: 15px 0;
+  min-height: 40px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+.contact-me .item {
+  height: 50px;
+  width: 50px;
+  /* background-color: blue; */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-me .item img {
+  height: 30px;
+  width: 30px;
+  transition: 300ms;
+}
+.contact-me .item img:hover {
+  height: 35px;
+  width: 35px;
 }
