@@ -30,17 +30,17 @@ h3 {
 }
 
 .contact-me {
-  padding: 15px 0;
+  padding: 0;
   min-height: 40px;
   /* background-color: red; */
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0;
+  gap: 17px;
 }
 .contact-me .item {
-  height: 50px;
-  width: 50px;
+  height: 50x;
+  width: 50x;
   /* background-color: blue; */
   border-radius: 50%;
   display: flex;
@@ -56,3 +56,4 @@ h3 {
   height: 35px;
   width: 35px;
 }
+
